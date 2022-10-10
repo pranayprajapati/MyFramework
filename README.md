@@ -1,0 +1,3 @@
+# MyFramework
+
+pod 'MyFramework'
