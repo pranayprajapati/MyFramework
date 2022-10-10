@@ -7,10 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1229272628ED56A900A5D4CB /* FirstTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1229272428ED56A900A5D4CB /* FirstTCell.swift */; };
+		1229272728ED56A900A5D4CB /* FirstTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1229272528ED56A900A5D4CB /* FirstTCell.xib */; };
+		1265DD4328F051A7000B562D /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 1265DD4228F051A7000B562D /* SocketIO */; };
+		1265DD4728F06137000B562D /* UserDetailTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1265DD4528F06137000B562D /* UserDetailTVCell.xib */; };
+		1265DD4828F06137000B562D /* UserDetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1265DD4628F06137000B562D /* UserDetailTVCell.swift */; };
+		128804B628EB5CA80092F510 /* ContactInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128804B428EB5CA80092F510 /* ContactInfoVC.swift */; };
+		128804B728EB5CA80092F510 /* ContactInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128804B528EB5CA80092F510 /* ContactInfoVC.xib */; };
+		128804BC28EB614E0092F510 /* ContactListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128804BA28EB614E0092F510 /* ContactListVC.swift */; };
+		128804BD28EB614E0092F510 /* ContactListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128804BB28EB614E0092F510 /* ContactListVC.xib */; };
+		128804C328EC137D0092F510 /* GroupContact1VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 128804C128EC137D0092F510 /* GroupContact1VC.xib */; };
+		128804C528EC15DE0092F510 /* GroupContact1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128804C428EC15DE0092F510 /* GroupContact1VC.swift */; };
+		128DEA2A28E7D3C300E3FDF5 /* ImageViewer1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DEA2928E7D3C300E3FDF5 /* ImageViewer1VC.swift */; };
+		128DEA2C28E7D5A100E3FDF5 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DEA2B28E7D5A100E3FDF5 /* ChatVC.swift */; };
+		12AADF4128EC2ED0002CF266 /* CreateGroup1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AADF3F28EC2ED0002CF266 /* CreateGroup1VC.swift */; };
+		12AADF4228EC2ED0002CF266 /* CreateGroupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12AADF4028EC2ED0002CF266 /* CreateGroupVC.xib */; };
+		12AADF4628EC3762002CF266 /* VideoPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12AADF4428EC3762002CF266 /* VideoPlayVC.swift */; };
+		12AADF4728EC3762002CF266 /* VideoPlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12AADF4528EC3762002CF266 /* VideoPlayVC.xib */; };
 		12B4025D28E7BAAF007EE644 /* MyFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 12B4025C28E7BAAF007EE644 /* MyFramework.docc */; };
 		12B4026328E7BAAF007EE644 /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B4025828E7BAAF007EE644 /* MyFramework.framework */; };
 		12B4026828E7BAAF007EE644 /* MyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4026728E7BAAF007EE644 /* MyFrameworkTests.swift */; };
 		12B4026928E7BAAF007EE644 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B4025B28E7BAAF007EE644 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B4027928E7BAE7007EE644 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4027328E7BAE7007EE644 /* ChatModel.swift */; };
+		12B4027A28E7BAE7007EE644 /* ToastUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4027528E7BAE7007EE644 /* ToastUtility.swift */; };
+		12B4027B28E7BAE7007EE644 /* SocketChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4027628E7BAE7007EE644 /* SocketChatManager.swift */; };
+		12B4027C28E7BAE7007EE644 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4027728E7BAE7007EE644 /* NetworkManager.swift */; };
+		12B4027D28E7BAE7007EE644 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4027828E7BAE7007EE644 /* Reachability.swift */; };
+		12B4028028E7BB13007EE644 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4027E28E7BB13007EE644 /* FirstViewController.swift */; };
+		12B4028128E7BB13007EE644 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B4027F28E7BB13007EE644 /* FirstViewController.xib */; };
+		12B4028328E7BF09007EE644 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B4028228E7BF09007EE644 /* Media.xcassets */; };
+		12B402BA28E7C1B5007EE644 /* OwnImgChatBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402A428E7C1B5007EE644 /* OwnImgChatBubbleCell.xib */; };
+		12B402BB28E7C1B5007EE644 /* OwnImgChatBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402A528E7C1B5007EE644 /* OwnImgChatBubbleCell.swift */; };
+		12B402BC28E7C1B5007EE644 /* OwnChatBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402A728E7C1B5007EE644 /* OwnChatBubbleCell.xib */; };
+		12B402BD28E7C1B5007EE644 /* OwnChatBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402A828E7C1B5007EE644 /* OwnChatBubbleCell.swift */; };
+		12B402BE28E7C1B5007EE644 /* OtherImgChatBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402AB28E7C1B5007EE644 /* OtherImgChatBubbleCell.xib */; };
+		12B402BF28E7C1B5007EE644 /* OtherImgChatBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402AC28E7C1B5007EE644 /* OtherImgChatBubbleCell.swift */; };
+		12B402C028E7C1B5007EE644 /* OtherChatBubbleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402AE28E7C1B5007EE644 /* OtherChatBubbleCell.swift */; };
+		12B402C128E7C1B5007EE644 /* OtherChatBubbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402AF28E7C1B5007EE644 /* OtherChatBubbleCell.xib */; };
+		12B402C228E7C1B5007EE644 /* ContactTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402B128E7C1B5007EE644 /* ContactTVCell.swift */; };
+		12B402C328E7C1B5007EE644 /* ContactTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402B228E7C1B5007EE644 /* ContactTVCell.xib */; };
+		12B402C728E7C1B5007EE644 /* GrpContactTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402B828E7C1B5007EE644 /* GrpContactTVCell.xib */; };
+		12B402C828E7C1B5007EE644 /* GrpContactTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402B928E7C1B5007EE644 /* GrpContactTVCell.swift */; };
+		12B402CB28E7C46D007EE644 /* ProfileDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402C928E7C46D007EE644 /* ProfileDetailVC.swift */; };
+		12B402CC28E7C46D007EE644 /* ProfileDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402CA28E7C46D007EE644 /* ProfileDetailVC.xib */; };
+		12B402D128E7C65A007EE644 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402CE28E7C65A007EE644 /* Utility.swift */; };
+		12B402D228E7C65A007EE644 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402CF28E7C65A007EE644 /* Validations.swift */; };
+		12B402D328E7C65A007EE644 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B402D028E7C65A007EE644 /* Extension.swift */; };
+		12B402D728E7C906007EE644 /* ChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402D528E7C906007EE644 /* ChatVC.xib */; };
+		12B402DB28E7CC9E007EE644 /* ImageViewerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12B402D928E7CC9E007EE644 /* ImageViewerVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +68,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1229272428ED56A900A5D4CB /* FirstTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTCell.swift; sourceTree = "<group>"; };
+		1229272528ED56A900A5D4CB /* FirstTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstTCell.xib; sourceTree = "<group>"; };
+		1265DD4528F06137000B562D /* UserDetailTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailTVCell.xib; sourceTree = "<group>"; };
+		1265DD4628F06137000B562D /* UserDetailTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailTVCell.swift; sourceTree = "<group>"; };
+		128804B428EB5CA80092F510 /* ContactInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoVC.swift; sourceTree = "<group>"; };
+		128804B528EB5CA80092F510 /* ContactInfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactInfoVC.xib; sourceTree = "<group>"; };
+		128804BA28EB614E0092F510 /* ContactListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListVC.swift; sourceTree = "<group>"; };
+		128804BB28EB614E0092F510 /* ContactListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactListVC.xib; sourceTree = "<group>"; };
+		128804C128EC137D0092F510 /* GroupContact1VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupContact1VC.xib; sourceTree = "<group>"; };
+		128804C428EC15DE0092F510 /* GroupContact1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupContact1VC.swift; sourceTree = "<group>"; };
+		128DEA2928E7D3C300E3FDF5 /* ImageViewer1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewer1VC.swift; sourceTree = "<group>"; };
+		128DEA2B28E7D5A100E3FDF5 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		12AADF3F28EC2ED0002CF266 /* CreateGroup1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroup1VC.swift; sourceTree = "<group>"; };
+		12AADF4028EC2ED0002CF266 /* CreateGroupVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateGroupVC.xib; sourceTree = "<group>"; };
+		12AADF4428EC3762002CF266 /* VideoPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayVC.swift; sourceTree = "<group>"; };
+		12AADF4528EC3762002CF266 /* VideoPlayVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPlayVC.xib; sourceTree = "<group>"; };
 		12B4025828E7BAAF007EE644 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B4025B28E7BAAF007EE644 /* MyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
 		12B4025C28E7BAAF007EE644 /* MyFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyFramework.docc; sourceTree = "<group>"; };
 		12B4026228E7BAAF007EE644 /* MyFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B4026728E7BAAF007EE644 /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
+		12B4027328E7BAE7007EE644 /* ChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		12B4027528E7BAE7007EE644 /* ToastUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastUtility.swift; sourceTree = "<group>"; };
+		12B4027628E7BAE7007EE644 /* SocketChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketChatManager.swift; sourceTree = "<group>"; };
+		12B4027728E7BAE7007EE644 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		12B4027828E7BAE7007EE644 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		12B4027E28E7BB13007EE644 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		12B4027F28E7BB13007EE644 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		12B4028228E7BF09007EE644 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		12B402A428E7C1B5007EE644 /* OwnImgChatBubbleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OwnImgChatBubbleCell.xib; sourceTree = "<group>"; };
+		12B402A528E7C1B5007EE644 /* OwnImgChatBubbleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnImgChatBubbleCell.swift; sourceTree = "<group>"; };
+		12B402A728E7C1B5007EE644 /* OwnChatBubbleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OwnChatBubbleCell.xib; sourceTree = "<group>"; };
+		12B402A828E7C1B5007EE644 /* OwnChatBubbleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnChatBubbleCell.swift; sourceTree = "<group>"; };
+		12B402AB28E7C1B5007EE644 /* OtherImgChatBubbleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherImgChatBubbleCell.xib; sourceTree = "<group>"; };
+		12B402AC28E7C1B5007EE644 /* OtherImgChatBubbleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherImgChatBubbleCell.swift; sourceTree = "<group>"; };
+		12B402AE28E7C1B5007EE644 /* OtherChatBubbleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherChatBubbleCell.swift; sourceTree = "<group>"; };
+		12B402AF28E7C1B5007EE644 /* OtherChatBubbleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherChatBubbleCell.xib; sourceTree = "<group>"; };
+		12B402B128E7C1B5007EE644 /* ContactTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTVCell.swift; sourceTree = "<group>"; };
+		12B402B228E7C1B5007EE644 /* ContactTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTVCell.xib; sourceTree = "<group>"; };
+		12B402B828E7C1B5007EE644 /* GrpContactTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GrpContactTVCell.xib; sourceTree = "<group>"; };
+		12B402B928E7C1B5007EE644 /* GrpContactTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrpContactTVCell.swift; sourceTree = "<group>"; };
+		12B402C928E7C46D007EE644 /* ProfileDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailVC.swift; sourceTree = "<group>"; };
+		12B402CA28E7C46D007EE644 /* ProfileDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileDetailVC.xib; sourceTree = "<group>"; };
+		12B402CE28E7C65A007EE644 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		12B402CF28E7C65A007EE644 /* Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		12B402D028E7C65A007EE644 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		12B402D528E7C906007EE644 /* ChatVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatVC.xib; sourceTree = "<group>"; };
+		12B402D928E7CC9E007EE644 /* ImageViewerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewerVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1265DD4328F051A7000B562D /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +138,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1265DD4428F06137000B562D /* UserDetailTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				1265DD4528F06137000B562D /* UserDetailTVCell.xib */,
+				1265DD4628F06137000B562D /* UserDetailTVCell.swift */,
+			);
+			path = UserDetailTVCell;
+			sourceTree = "<group>";
+		};
+		128804B328EB5C700092F510 /* ContactInfoVC */ = {
+			isa = PBXGroup;
+			children = (
+				128804B428EB5CA80092F510 /* ContactInfoVC.swift */,
+				128804B528EB5CA80092F510 /* ContactInfoVC.xib */,
+			);
+			path = ContactInfoVC;
+			sourceTree = "<group>";
+		};
+		128804B928EB60D20092F510 /* ContactListVC */ = {
+			isa = PBXGroup;
+			children = (
+				128804BA28EB614E0092F510 /* ContactListVC.swift */,
+				128804BB28EB614E0092F510 /* ContactListVC.xib */,
+			);
+			path = ContactListVC;
+			sourceTree = "<group>";
+		};
+		128804BF28EC0FFE0092F510 /* GroupContactVC */ = {
+			isa = PBXGroup;
+			children = (
+				128804C128EC137D0092F510 /* GroupContact1VC.xib */,
+				128804C428EC15DE0092F510 /* GroupContact1VC.swift */,
+			);
+			path = GroupContactVC;
+			sourceTree = "<group>";
+		};
+		12AADF3E28EC2EB6002CF266 /* CreateGroupVC */ = {
+			isa = PBXGroup;
+			children = (
+				12AADF3F28EC2ED0002CF266 /* CreateGroup1VC.swift */,
+				12AADF4028EC2ED0002CF266 /* CreateGroupVC.xib */,
+			);
+			path = CreateGroupVC;
+			sourceTree = "<group>";
+		};
+		12AADF4328EC373B002CF266 /* VideoPlayerVC */ = {
+			isa = PBXGroup;
+			children = (
+				12AADF4428EC3762002CF266 /* VideoPlayVC.swift */,
+				12AADF4528EC3762002CF266 /* VideoPlayVC.xib */,
+			);
+			path = VideoPlayerVC;
+			sourceTree = "<group>";
+		};
+		12ACF99F28ED4F340046B3B7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1229272428ED56A900A5D4CB /* FirstTCell.swift */,
+				1229272528ED56A900A5D4CB /* FirstTCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		12B4024E28E7BAAF007EE644 = {
 			isa = PBXGroup;
 			children = (
@@ -71,8 +222,13 @@
 		12B4025A28E7BAAF007EE644 /* MyFramework */ = {
 			isa = PBXGroup;
 			children = (
+				12B402DC28E7CCFE007EE644 /* ViewControllers */,
+				12B402CD28E7C646007EE644 /* Supporting Files */,
+				12B402A128E7C1B5007EE644 /* View */,
+				12B4027228E7BAE7007EE644 /* Model */,
 				12B4025B28E7BAAF007EE644 /* MyFramework.h */,
 				12B4025C28E7BAAF007EE644 /* MyFramework.docc */,
+				12B4028228E7BF09007EE644 /* Media.xcassets */,
 			);
 			path = MyFramework;
 			sourceTree = "<group>";
@@ -83,6 +239,173 @@
 				12B4026728E7BAAF007EE644 /* MyFrameworkTests.swift */,
 			);
 			path = MyFrameworkTests;
+			sourceTree = "<group>";
+		};
+		12B4027228E7BAE7007EE644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12B4027328E7BAE7007EE644 /* ChatModel.swift */,
+				12B4027428E7BAE7007EE644 /* ToastMessage */,
+				12B4027628E7BAE7007EE644 /* SocketChatManager.swift */,
+				12B4027728E7BAE7007EE644 /* NetworkManager.swift */,
+				12B4027828E7BAE7007EE644 /* Reachability.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		12B4027428E7BAE7007EE644 /* ToastMessage */ = {
+			isa = PBXGroup;
+			children = (
+				12B4027528E7BAE7007EE644 /* ToastUtility.swift */,
+			);
+			path = ToastMessage;
+			sourceTree = "<group>";
+		};
+		12B402A128E7C1B5007EE644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1265DD4428F06137000B562D /* UserDetailTVCell */,
+				12ACF99F28ED4F340046B3B7 /* Cell */,
+				12B402A228E7C1B5007EE644 /* OwnChatCell */,
+				12B402A928E7C1B5007EE644 /* OtherChatCell */,
+				12B402B028E7C1B5007EE644 /* ContactTVCell */,
+				12B402B728E7C1B5007EE644 /* GroupContactTVCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		12B402A228E7C1B5007EE644 /* OwnChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B402A328E7C1B5007EE644 /* OwnImgChatBubbleCell */,
+				12B402A628E7C1B5007EE644 /* OwnChatBubbleCell */,
+			);
+			path = OwnChatCell;
+			sourceTree = "<group>";
+		};
+		12B402A328E7C1B5007EE644 /* OwnImgChatBubbleCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B402A428E7C1B5007EE644 /* OwnImgChatBubbleCell.xib */,
+				12B402A528E7C1B5007EE644 /* OwnImgChatBubbleCell.swift */,
+			);
+			path = OwnImgChatBubbleCell;
+			sourceTree = "<group>";
+		};
+		12B402A628E7C1B5007EE644 /* OwnChatBubbleCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B402A728E7C1B5007EE644 /* OwnChatBubbleCell.xib */,
+				12B402A828E7C1B5007EE644 /* OwnChatBubbleCell.swift */,
+			);
+			path = OwnChatBubbleCell;
+			sourceTree = "<group>";
+		};
+		12B402A928E7C1B5007EE644 /* OtherChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B402AA28E7C1B5007EE644 /* OtherImgChatBubbleCell */,
+				12B402AD28E7C1B5007EE644 /* OtherChatBubbleCell */,
+			);
+			path = OtherChatCell;
+			sourceTree = "<group>";
+		};
+		12B402AA28E7C1B5007EE644 /* OtherImgChatBubbleCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B402AB28E7C1B5007EE644 /* OtherImgChatBubbleCell.xib */,
+				12B402AC28E7C1B5007EE644 /* OtherImgChatBubbleCell.swift */,
+			);
+			path = OtherImgChatBubbleCell;
+			sourceTree = "<group>";
+		};
+		12B402AD28E7C1B5007EE644 /* OtherChatBubbleCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B402AE28E7C1B5007EE644 /* OtherChatBubbleCell.swift */,
+				12B402AF28E7C1B5007EE644 /* OtherChatBubbleCell.xib */,
+			);
+			path = OtherChatBubbleCell;
+			sourceTree = "<group>";
+		};
+		12B402B028E7C1B5007EE644 /* ContactTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B402B128E7C1B5007EE644 /* ContactTVCell.swift */,
+				12B402B228E7C1B5007EE644 /* ContactTVCell.xib */,
+			);
+			path = ContactTVCell;
+			sourceTree = "<group>";
+		};
+		12B402B728E7C1B5007EE644 /* GroupContactTVCell */ = {
+			isa = PBXGroup;
+			children = (
+				12B402B828E7C1B5007EE644 /* GrpContactTVCell.xib */,
+				12B402B928E7C1B5007EE644 /* GrpContactTVCell.swift */,
+			);
+			path = GroupContactTVCell;
+			sourceTree = "<group>";
+		};
+		12B402CD28E7C646007EE644 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12B402D028E7C65A007EE644 /* Extension.swift */,
+				12B402CE28E7C65A007EE644 /* Utility.swift */,
+				12B402CF28E7C65A007EE644 /* Validations.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12B402DC28E7CCFE007EE644 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				12AADF4328EC373B002CF266 /* VideoPlayerVC */,
+				12AADF3E28EC2EB6002CF266 /* CreateGroupVC */,
+				128804BF28EC0FFE0092F510 /* GroupContactVC */,
+				128804B928EB60D20092F510 /* ContactListVC */,
+				128804B328EB5C700092F510 /* ContactInfoVC */,
+				12B402E028E7CD3F007EE644 /* ImageViewerVC */,
+				12B402DF28E7CD31007EE644 /* ChatVC */,
+				12B402DE28E7CD1E007EE644 /* ProfileDetailVC */,
+				12B402DD28E7CD14007EE644 /* FirstVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		12B402DD28E7CD14007EE644 /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				12B4027E28E7BB13007EE644 /* FirstViewController.swift */,
+				12B4027F28E7BB13007EE644 /* FirstViewController.xib */,
+			);
+			path = FirstVC;
+			sourceTree = "<group>";
+		};
+		12B402DE28E7CD1E007EE644 /* ProfileDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				12B402C928E7C46D007EE644 /* ProfileDetailVC.swift */,
+				12B402CA28E7C46D007EE644 /* ProfileDetailVC.xib */,
+			);
+			path = ProfileDetailVC;
+			sourceTree = "<group>";
+		};
+		12B402DF28E7CD31007EE644 /* ChatVC */ = {
+			isa = PBXGroup;
+			children = (
+				12B402D528E7C906007EE644 /* ChatVC.xib */,
+				128DEA2B28E7D5A100E3FDF5 /* ChatVC.swift */,
+			);
+			path = ChatVC;
+			sourceTree = "<group>";
+		};
+		12B402E028E7CD3F007EE644 /* ImageViewerVC */ = {
+			isa = PBXGroup;
+			children = (
+				12B402D928E7CC9E007EE644 /* ImageViewerVC.xib */,
+				128DEA2928E7D3C300E3FDF5 /* ImageViewer1VC.swift */,
+			);
+			path = ImageViewerVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +436,9 @@
 			dependencies = (
 			);
 			name = MyFramework;
+			packageProductDependencies = (
+				1265DD4228F051A7000B562D /* SocketIO */,
+			);
 			productName = MyFramework;
 			productReference = 12B4025828E7BAAF007EE644 /* MyFramework.framework */;
 			productType = "com.apple.product-type.framework";
@@ -162,6 +488,9 @@
 				Base,
 			);
 			mainGroup = 12B4024E28E7BAAF007EE644;
+			packageReferences = (
+				1265DD4128F051A7000B562D /* XCRemoteSwiftPackageReference "socket" */,
+			);
 			productRefGroup = 12B4025928E7BAAF007EE644 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,6 +506,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12AADF4228EC2ED0002CF266 /* CreateGroupVC.xib in Resources */,
+				12B402C128E7C1B5007EE644 /* OtherChatBubbleCell.xib in Resources */,
+				12B402BE28E7C1B5007EE644 /* OtherImgChatBubbleCell.xib in Resources */,
+				12B402DB28E7CC9E007EE644 /* ImageViewerVC.xib in Resources */,
+				128804B728EB5CA80092F510 /* ContactInfoVC.xib in Resources */,
+				12B4028328E7BF09007EE644 /* Media.xcassets in Resources */,
+				12AADF4728EC3762002CF266 /* VideoPlayVC.xib in Resources */,
+				1229272728ED56A900A5D4CB /* FirstTCell.xib in Resources */,
+				128804C328EC137D0092F510 /* GroupContact1VC.xib in Resources */,
+				12B402CC28E7C46D007EE644 /* ProfileDetailVC.xib in Resources */,
+				12B402BA28E7C1B5007EE644 /* OwnImgChatBubbleCell.xib in Resources */,
+				1265DD4728F06137000B562D /* UserDetailTVCell.xib in Resources */,
+				12B402BC28E7C1B5007EE644 /* OwnChatBubbleCell.xib in Resources */,
+				12B402C328E7C1B5007EE644 /* ContactTVCell.xib in Resources */,
+				12B402C728E7C1B5007EE644 /* GrpContactTVCell.xib in Resources */,
+				128804BD28EB614E0092F510 /* ContactListVC.xib in Resources */,
+				12B4028128E7BB13007EE644 /* FirstViewController.xib in Resources */,
+				12B402D728E7C906007EE644 /* ChatVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +542,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B4025D28E7BAAF007EE644 /* MyFramework.docc in Sources */,
+				12B4027A28E7BAE7007EE644 /* ToastUtility.swift in Sources */,
+				12B402BB28E7C1B5007EE644 /* OwnImgChatBubbleCell.swift in Sources */,
+				1265DD4828F06137000B562D /* UserDetailTVCell.swift in Sources */,
+				12B402CB28E7C46D007EE644 /* ProfileDetailVC.swift in Sources */,
+				12B4027D28E7BAE7007EE644 /* Reachability.swift in Sources */,
+				12B402BD28E7C1B5007EE644 /* OwnChatBubbleCell.swift in Sources */,
+				12B4027C28E7BAE7007EE644 /* NetworkManager.swift in Sources */,
+				12AADF4128EC2ED0002CF266 /* CreateGroup1VC.swift in Sources */,
+				12B402BF28E7C1B5007EE644 /* OtherImgChatBubbleCell.swift in Sources */,
+				12B402D328E7C65A007EE644 /* Extension.swift in Sources */,
+				12B402C828E7C1B5007EE644 /* GrpContactTVCell.swift in Sources */,
+				128804C528EC15DE0092F510 /* GroupContact1VC.swift in Sources */,
+				128DEA2A28E7D3C300E3FDF5 /* ImageViewer1VC.swift in Sources */,
+				12AADF4628EC3762002CF266 /* VideoPlayVC.swift in Sources */,
+				12B4027B28E7BAE7007EE644 /* SocketChatManager.swift in Sources */,
+				12B402C228E7C1B5007EE644 /* ContactTVCell.swift in Sources */,
+				128804B628EB5CA80092F510 /* ContactInfoVC.swift in Sources */,
+				128804BC28EB614E0092F510 /* ContactListVC.swift in Sources */,
+				128DEA2C28E7D5A100E3FDF5 /* ChatVC.swift in Sources */,
+				12B402D228E7C65A007EE644 /* Validations.swift in Sources */,
+				12B402D128E7C65A007EE644 /* Utility.swift in Sources */,
+				12B4027928E7BAE7007EE644 /* ChatModel.swift in Sources */,
+				1229272628ED56A900A5D4CB /* FirstTCell.swift in Sources */,
+				12B402C028E7C1B5007EE644 /* OtherChatBubbleCell.swift in Sources */,
+				12B4028028E7BB13007EE644 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +768,7 @@
 		12B4027028E7BAAF007EE644 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27B9XTLYR7;
@@ -412,6 +785,7 @@
 		12B4027128E7BAAF007EE644 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 27B9XTLYR7;
@@ -456,6 +830,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1265DD4128F051A7000B562D /* XCRemoteSwiftPackageReference "socket" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1265DD4228F051A7000B562D /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1265DD4128F051A7000B562D /* XCRemoteSwiftPackageReference "socket" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 12B4024F28E7BAAF007EE644 /* Project object */;
 }
