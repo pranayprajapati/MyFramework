@@ -88,7 +88,7 @@ Pod::Spec.new do |spec|
   #
 
   	# spec.source       = { :git => "https://github.com/pranayprajapati/MyFramework.git", :tag => "#{spec.version}" }
-	spec.source       = { :git => "https://github.com/pranayprajapati/MyFramework.git", :tag => s.version.to_s }
+	spec.source       = { :git => "https://github.com/pranayprajapati/MyFramework.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -101,7 +101,7 @@ Pod::Spec.new do |spec|
 
   	spec.source_files  = "MyFramework", "MyFramework/**/*.{h,m,swift}"
 
-  # spec.exclude_files = "Classes/Exclude"
+   	spec.exclude_files = "MyFramework/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
